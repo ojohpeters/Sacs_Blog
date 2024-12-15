@@ -4,10 +4,6 @@ use App\Http\Controllers\BlogController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\GoogleController;
 
-// Route::get('/', function () {
-//     return view('indec');
-// })->name('home');
-
 Route::get('/', [BlogController::class, 'index'])->name('home');
 
 Route::middleware('auth')->group(function () {
