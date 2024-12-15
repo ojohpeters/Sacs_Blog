@@ -10,9 +10,12 @@
     <meta name="description" content="A simple blogsite for for training on laravel" />
     <meta name="keywords" content="keywords,here" />
     {{-- <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}"> --}}
-    @vite(['public/assets/css/app.css', 'public/assets/js/app.js'])
+    {{-- @vite(['public/assets/css/app.css', 'public/assets/js/app.js']) --}}
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    @vite('resources/css/app.css')
 
+    <!-- Link to the JS file -->
+    @vite('resources/js/app.js')
     <!--Replace with your tailwind.css once created-->
 </head>
 

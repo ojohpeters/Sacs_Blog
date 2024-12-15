@@ -27,7 +27,7 @@
                                     </svg>
                                 </div>
                                 <span class="ml-4">
-                                    Sign Up with Google
+                                    Sign in with Google
                                 </span>
                             </a>
                             </div>
